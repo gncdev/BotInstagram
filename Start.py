@@ -21,7 +21,7 @@ def start():
 
 
 def special(number: int):
-	if number is 0:
+	if number == 0:
 		print("Please put a someone value")
 		sys.exit(1)
 	for i in range(number):
